@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="gurukulaAutomation.GurukulaTestNG3"/>
+    <methods>
+		<include name="launch" />
+		<include name="registernewaccount" />
+		<include name="login" />
+		<include name="entities" />
+		<include name="account" />
+		<include name="logout" />
+	  </methods>
+	</classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
